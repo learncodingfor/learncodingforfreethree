@@ -5,7 +5,7 @@
 <script>
   function go(){
     if(document.forms.math.ans.value == 23){alert("correct");
-                                           window.location.assign("1to20next.html");}else{alert(" wrong answer the correct answer is 23, Keep Trying Your Doing Good! :)");}
+                                           document.getElementById("a").style.display="block";}else{alert(" wrong answer the correct answer is 23, Keep Trying Your Doing Good! :)");}
   }
 </script>
-<a href="1to20next.html">next question</a>
+<a href="1to20next.html" id="a" style="display:none;">next question</a>

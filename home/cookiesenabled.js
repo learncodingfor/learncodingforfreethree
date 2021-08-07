@@ -7,4 +7,3 @@ const cookie = {
 };
 
 const cookiesenabled = Object.create(cookie);
-cookiesenabled.cookiesenabled();

@@ -7,6 +7,4 @@ const cookie = {
 };
 
 const cookiesenabled = Object.create(cookie);
-// "name" is a property set on "me", but not on "person"
-// inherited properties can be overwritten
-cookiesenabled.cookieenabled();
+cookiesenabled.cookiesenabled();

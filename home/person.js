@@ -1,7 +1,8 @@
 const person = {
-    isHuman:false,
-   printIntroduction:function(){
-     alert("my name is "+ ${this.name} "Am i human?"+ ${this.human}");
-   }
-  };
-  const Human = Object.create(person);
+  isHuman: false,
+  printIntroduction: function() {
+    alert(`My name is ${this.name}. Am I human? ${this.isHuman}`);
+  }
+};
+
+const me = Object.create(person);

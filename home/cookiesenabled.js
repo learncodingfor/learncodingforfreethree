@@ -10,3 +10,4 @@ const cookiesenabled = Object.create(cookie);
 // inherited properties can be overwritten
 
 //checks if cookies are enabled if not it displays a message telling the user to enable cookies
+cookiesenabled.cookieenabled();

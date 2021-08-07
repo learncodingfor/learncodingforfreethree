@@ -1,5 +1,5 @@
 const isCookieEnabled = function() {
-  isEnabked:false;
+  isEnabled:false;
   isEnabled:function(){
     if(navigator.cookiesEnabled){alert("cookies are enabled")}
   }

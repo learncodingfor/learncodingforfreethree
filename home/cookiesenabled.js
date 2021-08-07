@@ -1,8 +1,7 @@
 const cookie = {
   isenabled: true,
   cookieenabled: function() {
-    if(navigator.cookieEnabled = true){console.log("cookies Enabled!")}else{cookie.isenabled = false}
-    if(cookie.isenabled = false){alert("enable cookies")}
+    if(navigator.cookieEnabled = true){console.log("cookies Enabled!")}else{cookiesenabled.isenabled=false;}
   }
 };
 

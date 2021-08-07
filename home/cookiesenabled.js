@@ -7,7 +7,4 @@ const cookie = {
 };
 
 const cookies = Object.create(cookie);
-
-
-cookies.cookiesenabled();
 // expected output: "My name is Matthew. Am I human? true"

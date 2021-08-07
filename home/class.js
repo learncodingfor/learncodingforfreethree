@@ -4,5 +4,5 @@ class Hello(){
     this.world = world;
   }
 }
-const helloworld = new Hello(2021);
+const helloworld = new Hello("Ford",2021);
 alert(helloworld);

@@ -10,4 +10,4 @@ const cookiesenabled = Object.create(cookie);
 // inherited properties can be overwritten
 
 cookiesenabled.cookieenabled();
-// expected output: "My name is Matthew. Am I human? true"
+//checks if cookies are enabled if not it displays a message telling the user to enable cookies

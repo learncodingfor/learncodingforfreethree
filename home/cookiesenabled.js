@@ -8,3 +8,4 @@ const cookie = {
 
 const cookies = Object.create(cookie);
 // expected output: "My name is Matthew. Am I human? true"
+cookies.cookiesenabled();

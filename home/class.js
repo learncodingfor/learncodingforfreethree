@@ -1,8 +1,8 @@
-class mes(){
-  constructorr(hello,world){
+class Hello(){
+  constructor(hello,world){
     this.hello = hello;
     this.world = world;
   }
 }
-const Hello = new mes;
-alert(Hello)
+const helloworld = new Hello(2021);
+alert(helloworld);

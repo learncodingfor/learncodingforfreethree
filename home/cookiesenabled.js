@@ -5,4 +5,4 @@ const isCookieEnabled = function() {
     if(isEnabled = false){alert("Enabke cookies");}
   }
 }
-const iscookieenabled = Object.create(isCookieEnabled;
+const iscookieenabled = Object.create(isCookieEnabled);

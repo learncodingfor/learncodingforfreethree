@@ -14,4 +14,5 @@ const displaymessage = {
   }
 };
 const displayMes = Object.create(displaymessage);
+//display's a message
 displayMes.displaymessage();

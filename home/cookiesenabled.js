@@ -4,9 +4,13 @@ const CookiesEnabled = {
     //checks if cookies are enabled if not it displays a message telling the user to enable cookies
     if(navigator.cookieEnabled = true){alert("cookies Enabled");}else{alert("Enable cookies");}
   }
-  displaymessage: function(){
-    if(navigator.cookieEnabled = true){console.log("enabled");}else{document.write("Enable Cookies!")
-  }
 };
 const cookies = Object.create(CookiesEnabled);
 cookies.isenabled();
+const Cookies = {
+  Enabled:true,
+  displaymessage: function(){
+    if(navigator.cookieEnabled = true){console.log("cookies enabled")}else{document.write("Enable Cookies");}
+  }
+};
+var Cookies = object.create(Cookies);

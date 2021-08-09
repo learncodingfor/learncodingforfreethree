@@ -13,4 +13,5 @@ const displaymessage = {
     if(navigator.cookieEnabled = true){console.log("cookies enabled")}else{document.write("Enable Cookies");}
   }
 };
-var displayMes = object.create(displaymessage);
+const displayMes = Object.create(displaymessage);
+displayMes.displaymessage();

@@ -13,6 +13,6 @@ const displaymessage = {
     if(navigator.cookieEnabled = true){console.log("cookies enabled")}else{document.write("Enable Cookies");}
   }
 };
-const displayMes = Object.create(displaymessage);
+const displaymessage= Object.create(displaymessage);
 //display's a message
-displayMes.displaymessage();
+displaymessage.displaymessage();

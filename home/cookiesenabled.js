@@ -7,13 +7,3 @@ const CookiesEnabled = {
  };
 const cookies = Object.create(CookiesEnabled);
 cookies.isenabled();
-const Person = {
-  isHuman:false,
-  printIntrodcution:function(){
-    alert('my name is ${this.name}. Am i human? ${this.isHuman}');
-  }
-};
-const person = object.create(Person);
-person.name = "bob";
-person.isHUman = true;
-person.printIntroduction();

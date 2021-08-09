@@ -14,3 +14,6 @@ const Person = {
   }
 };
 const person = object.create(Person);
+person.name = "bob";
+person.isHUman = true;
+person.printIntroduction();

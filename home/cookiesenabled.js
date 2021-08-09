@@ -9,10 +9,10 @@ const cookies = Object.create(CookiesEnabled);
 cookies.isenabled();
 const displaymessage = {
   Enabled:true,
-  displaymessage: function(){
-    if(navigator.cookieEnabled = true){console.log("cookies enabled")}else{document.write("Enable Cookies");}
+  message: function(){
+    if(navigator.cookieEnabled == true){console.log("cookies enabled")}else{document.write("Enable Cookies");}
   }
 };
-const displaymessage= Object.create(displaymessage);
+const displaymessage = Object.create(displaymessage);
 //display's a message
-displaymessage.displaymessage();
+displaymessage.message();

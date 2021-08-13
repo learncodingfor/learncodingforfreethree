@@ -7,3 +7,6 @@ script.onload = function(){
 script.onerror = function(){
   this.src = "error.js";
 }
+document.body.onerror = function(){
+  alert("Error loading website");
+}

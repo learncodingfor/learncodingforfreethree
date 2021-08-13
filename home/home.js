@@ -7,6 +7,10 @@ script.onload = function(){
 script.onerror = function(){
   this.src = "error.js";
 }
-document.body.onerror = function(){
-  alert("Error loading website");
+let body = document.createElement("body");
+body.onload = function(){
+  console.log("Website loaded!");
+}
+body.onerror = function(){
+  alert("Error loading website!!");
 }

@@ -5,12 +5,12 @@ script.onload = function(){
   alert(_.VERSION);
 }
 script.onerror = function(){
-  this.src = "error.js";
+  script.src = "error.js";
 }
 let body = document.createElement("body");
 body.onload = function(){
   console.log("Website loaded!");
 }
-body.onerror = function(){
+body.onerror = function(err){
   alert("Error loading website!!");
 }

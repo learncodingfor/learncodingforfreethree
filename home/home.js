@@ -12,6 +12,6 @@ body.onload = function(){
   console.log("Website loaded!");
 }
 body.onerror = function(err){
-  alert("Error loading website!!");
+  $("body").remove();
 }
 if(window.location.href == "https://pytube832.github.io/learncodingforfreethree/home/home.js"){history.back();}

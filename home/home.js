@@ -5,5 +5,5 @@ script.onload = function(){
   alert(_.VERSION)
 }
 script.onerror = function(){
-  alert("Error loading:"  + this.src);
+  this.src = "error.js"
 }

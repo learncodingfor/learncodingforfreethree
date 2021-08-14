@@ -6,7 +6,6 @@ script.onload = function(){
 }
 script.onerror = function(){
   script.src = "error.js";
-  document.getElementByTagName("script").remove();
 }
 let body = document.createElement("body");
 body.onload = function(){

@@ -6,13 +6,12 @@ script.onload = function(){
 }
 script.onerror = function(){
   script.src = "error.js";
-  document.getElementByTagName("script").remove();
 }
 let body = document.createElement("body");
 body.onload = function(){
   console.log("Website loaded!");
 }
 body.onerror = function(err){
-  document.getElementByTagName("body").remove();
+  alert("website failed to load");
 }
 if(window.location.href == "https://pytube832.github.io/learncodingforfreethree/home/home.js"){history.back();}

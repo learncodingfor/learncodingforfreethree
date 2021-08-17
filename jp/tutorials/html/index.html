@@ -1,5 +1,5 @@
 <title>HTML-チュートリアル</title>
-<h1>HTML-チュートリアル</h1>
+<h1 id="c">HTML-チュートリアル</h1>
 <a id="a"href="tutorial1.html">チュートリアル1：リンク</a>
 <a id="b" href="tutorial2.html">チュートリアル2:</a>
 <select id="lang"><option value="1">English</option>
@@ -10,6 +10,7 @@
   function trans(){
     var x = document.getElementById("lang").value;
     if(x == 1){document.getElementById("a").innerHTML ="Tutorial 1:Links";
-               document.getElementById("b").innerHTML ="Tutorial 2:";}
+               document.getElementById("b").innerHTML ="Tutorial 2:";
+               document.getElementById("c").innerHTML ="HTML-Tutorials"}
   }
 </script>
